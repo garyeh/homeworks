@@ -43,6 +43,10 @@ class Simon
   end
 
   def require_sequence
+    sleep(0.5)
+    puts "Your turn!"
+    sleep(1)
+    system("clear")
     player_seq = []
     @seq.length.times do
       player_seq << gets.chomp
@@ -56,7 +60,7 @@ class Simon
   end
 
   def round_success_message
-    puts "You passed this round!"
+    puts "You passed Round #{@sequence_length}!"
   end
 
   def game_over_message
