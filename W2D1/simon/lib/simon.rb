@@ -75,15 +75,11 @@ class Simon
 
   private
   def countdown
-    puts "Ready? 3..."
-    sleep(1)
-    system("clear")
-    puts "Ready? 2..."
-    sleep(1)
-    system("clear")
-    puts "Ready? 1..."
-    sleep(1)
-    system("clear")
+    3.downto(1) do |i|
+      puts "Ready? #{i}..."
+      sleep(1)
+      system("clear")
+    end
   end
 end
 
