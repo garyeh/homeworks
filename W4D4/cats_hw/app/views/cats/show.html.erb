@@ -40,4 +40,8 @@
   <% if logged_in? %>
     <%= link_to "Make new request", new_cat_rental_request_url %>
   <% end %>
+
+  <% content_for :footer do %>
+    <p>This is the show cat page for <%= @cat.name  %>.</p>
+  <% end %>
 </div></section>
