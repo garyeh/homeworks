@@ -1,6 +1,28 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: antiquewhite
+  background-color: antiquewhite;
+  margin: 0 auto;
+  width: 900px;
+}
+
+section {
+  width: 700px;
+  display: inline-block;
+}
+
+aside {
+  width: 180px;
+  display: inline-block;
+  margin-right: 15px;
+  vertical-align: top;
+}
+
+aside ul li {
+  margin: 15px 0 15px 0;
+}
+
+section ol li {
+  margin: 15px 0 15px 0;
 }
 
 h1 {
@@ -26,4 +48,37 @@ header > img {
 ul li a {
   text-decoration: none;
   color: inherit;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    padding: 20px;
+    display: block;
+}
+
+nav {
+  display: inline-block;
+}
+
+input[type="text"], select {
+  display: block;
+  width: 200px;
+}
+
+textarea {
+  display: block;
+  width: 400px;
+  height: 40px;
+}
+
+input[type="submit"], select {
+  display: block;
+}
+
+select {
+  margin-top: 10px;
+  width: 200px;
 }
