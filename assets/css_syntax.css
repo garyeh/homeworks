@@ -43,6 +43,11 @@ ol {
 
 header > img {
   width: 100px;
+  float: left;
+}
+
+figure < img {
+  width: 100%;
 }
 
 ul li a {
@@ -60,7 +65,7 @@ nav ul li a {
 }
 
 nav {
-  display: inline-block;
+  float: right;
 }
 
 input[type="text"], select {

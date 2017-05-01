@@ -45,7 +45,7 @@ input[type="radio"] {
     -webkit-appearance: none;
     width: 27px;
     height: 27px;
-    background-image: url(assets/stars.png);
+    background-image: url(stars.png);
     vertical-align: bottom;
     cursor: pointer;
     outline: none;
