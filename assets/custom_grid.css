@@ -38,3 +38,9 @@ with a class attribute containing 'col-' */
   display: block;
   clear: both;
 }
+
+@media all and (max-width: 1150px) {
+  [class*='col-'] {
+    width: 100%;
+  }
+}
