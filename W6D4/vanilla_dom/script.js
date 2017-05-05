@@ -48,6 +48,7 @@ document.addEventListener("DOMContentLoaded", () => {
   document.querySelector(".photo-show-button")
      .addEventListener("click", showPhotoForm);
 
+
   const submitPhoto = (e) => {
     e.preventDefault();
     const input = document.querySelector(".photo-url-input");
