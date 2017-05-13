@@ -1,0 +1,13 @@
+.splashnav ul li {
+  text-align: right;
+  list-style-type: none;
+}
+
+.splashnav p {
+  text-align: center;
+}
+
+.splashfoot {
+  background-color: yellow;
+  display: flex;
+}
